@@ -62,7 +62,7 @@
   </div>
   <div class="align-items-center">
     <input type="checkbox" name="agree" id="agree">
-    <label for="text">ยินยอมเก็บข้อมูล</label>
+    <label for="text">Agree to collect data</label>
   </div>
   <div class="align-items-center">
     <button type="button" id="refreshButton">Reset</button>
