@@ -65,9 +65,18 @@
     <label for="text">ยินยอมเก็บข้อมูล</label>
   </div>
   <div class="align-items-center">
-    <button type="button">Reset</button>
-    <button type="button">Save</button>
+    <button type="button" id="refreshButton">Reset</button>
+    <button type="button" id="refreshButton">Save</button>
   </div>
 </div>
+<script>
+      const refreshBtn = document.getElementById("refreshButton");
+
+      function handleClick() {
+        window.location.reload();
+      }
+
+      refreshBtn.addEventListener("click", handleClick);
+    </script>
 </body>
 </html>
