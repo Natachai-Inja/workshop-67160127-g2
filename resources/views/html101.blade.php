@@ -21,11 +21,52 @@
   </div>
   <div class="align-items-center">
     <label for="date">Birth Date</label>
-    <input type="datetime-local">
+    <input type="date">
   </div>
   <div class="align-items-center">
     <label for="age">Age</label>
     <input type="text" id="age" name="age">
+  </div>
+  <div class="align-itens-center">
+    <label for="gender"> Gender</label>
+    <input type="checkbox" id="male" name="male" value="gender">
+    <label for="text">Male</label>
+    <input type="checkbox" id="female" name="female" value="gender">
+    <label for="text">Female</label>
+  </div>
+  <div class="align-items-center">
+    <label for="picture">Picture</label>
+    <input type="file" id="picture" name="picture">
+  </div>
+  <label for="text">Address</label>
+  <div class="align-items-center">
+    <textarea id="address" name="address" rows="5" cols="50"></textarea>
+  </div>
+  <div class="align-items-center">
+    <label for="favorite-color">Favorite Color</label>
+    <select name="color" id="favorite-color">
+      <option value="red">Red</option>
+      <option value="white">White</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+    </select>
+  </div>
+  <div class="align-items-center">
+    <label for="favorite-song-genere">Favorite Songe Genre</label>
+    <select name="songs" id="favorite-song-genere">
+      <option value="rock">Rock</option>
+      <option value="pop">Pop</option>
+      <option value="country">Country</option>
+      <option value="heavy-metal">Heavy Metal</option>
+    </select>
+  </div>
+  <div class="align-items-center">
+    <input type="checkbox" name="agree" id="agree">
+    <label for="text">ยินยอมเก็บข้อมูล</label>
+  </div>
+  <div class="align-items-center">
+    <button type="button">Reset</button>
+    <button type="button">Save</button>
   </div>
 </div>
 </body>
